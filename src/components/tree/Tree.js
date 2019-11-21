@@ -15,14 +15,13 @@ class Tree extends Component{
 
         this.setState({
             berries: this.state.berries + 1
-        })
+        });
     }
 
     render(){
         return(
             <div 
-                className="Tree"
-                
+                className="Tree" 
             >
                 <div
                     className="trImage"
